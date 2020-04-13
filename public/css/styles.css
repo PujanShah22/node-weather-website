@@ -38,18 +38,26 @@ header a {
 }
 
 .potrait {
-  width: 150px;
+  width: 250px;
 }
 
 input {
+  font-size: 14px;
   padding: 8px;
   border: 1px solid #cccccc;
 }
 
 button {
+  font-size: 14px;
   padding: 8px;
   border: 1px solid #888888;
   background-color: #888888;
   cursor: pointer;
   color: white;
+}
+
+p {
+  font-size: 16px;
+  color: #4d4c4c;
+  font-family: arial;
 }
