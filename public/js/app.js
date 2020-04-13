@@ -16,6 +16,6 @@ weatherForm.addEventListener('submit', (e) => {
             messageTwo.textContent = res.forecast
         }
     }).catch(err => {
-        console.log("error", err);
+        messageOne.textContent = "Unable to get the weather of location at the moment."
     })
 })
